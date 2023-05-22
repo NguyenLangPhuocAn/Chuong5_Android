@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/settings"
+        app:showAsAction="never"
+        android:title="Settings"
+        >
+        <menu>
+            <item android:id="@+id/thongtin"
+                android:title="Thông Tin Phiên Bản"
+                >
+            </item>
+        </menu>
+    </item>
+    <item android:id="@+id/tool"
+        android:title="Tools"
+        app:showAsAction="never"
+        >
+    </item>
+    <item android:id="@+id/Exit"
+        android:title="Exit"
+        app:showAsAction="never"
+        >
+    </item>
+    <item android:id="@+id/Quanly"
+        android:icon="@drawable/ic_menu_foreground"
+        app:showAsAction="ifRoom"
+        android:title="quanly"
+        >
+        <menu>
+            <item android:id="@+id/qlnv"
+                android:title="Quản Lý Nhân Viên"
+                app:showAsAction="never"
+                >
+            </item>
+        </menu>
+    </item>
+</menu>
